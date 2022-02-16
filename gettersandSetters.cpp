@@ -12,7 +12,13 @@ class cars{
     int gears;
 
     //in order to set the private property, we use setter
-    void setWheels(int n){
+    void setWheels(int n,int password){
+        if(password!=1234){
+            return;
+        }
+
+        if(n<0)return;
+
         wheels=n;
     }
 
@@ -32,7 +38,7 @@ int main(){
     cars* c2=new cars;
 
     c2->gears=6;
-    c2->setWheels(4);
+    c2->setWheels(6,1234);
 
 
     c2->display();
