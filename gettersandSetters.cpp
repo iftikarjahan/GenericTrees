@@ -42,11 +42,5 @@ int main(){
 
 
     c2->display();
-
-
-
-
-
-
     return 0;
 }
