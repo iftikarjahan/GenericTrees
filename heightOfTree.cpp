@@ -38,6 +38,7 @@ Node *construct(int arr[],int n )
 int height(Node *node)
 {
     //height will always be positive or 0, so we can consider min height to be -1
+    //here height starts from -1 because we are considering the deapth with respect to edges 
     int heightOfTree=-1;
 
     //So in every iteration of the for loop, we are calculating the height of each child
