@@ -136,7 +136,7 @@ void solve()
     Node * root=constructor01(arr);
     
   linearize(root);
-  // display(root);
+  
     
 }
 
